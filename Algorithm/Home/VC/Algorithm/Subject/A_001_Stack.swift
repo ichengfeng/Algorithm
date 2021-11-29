@@ -1,5 +1,5 @@
 //
-//  A_001_StackTest.swift
+//  A_001_Stack.swift
 //  Algorithm
 //
 //  Created by mac on 2021/11/16.
@@ -7,7 +7,7 @@
 ///出入栈操作
 import UIKit
 
-class A_001_StackTest: NSObject {
+class A_001_Stack: NSObject {
 
     override init() {
         
