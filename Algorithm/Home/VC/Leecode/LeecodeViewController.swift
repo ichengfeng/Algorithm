@@ -69,6 +69,12 @@ extension LeecodeViewController: UICollectionViewDelegate, UICollectionViewDataS
         cell.testLab.text = "section \(indexPath.section) item \(indexPath.row)"
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+//            let a  = L_001_____()
+//            print(a.twoSum([2,3,4], 7))
+        }
+    }
 }
 
 extension LeecodeViewController: WaterfallMutiSectionDelegate {

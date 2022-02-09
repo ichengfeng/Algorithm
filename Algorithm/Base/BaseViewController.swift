@@ -1,13 +1,13 @@
 //
-//  L_001_两数之和.swift
+//  BaseViewController.swift
 //  Algorithm
 //
-//  Created by mac on 2021/11/16.
+//  Created by mac on 2022/2/9.
 //
 
 import UIKit
 
-class L_001_____: UIViewController {
+class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,19 +15,7 @@ class L_001_____: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var temps: [Int] = []
-        for (vIndex ,value) in nums.enumerated() {
-            let t = target - value
-            for (nIndex ,number) in nums.enumerated() {
-                if number == t && nIndex != vIndex {
-                    temps = [vIndex,nIndex]
-                }
-            }
-        }
-        return temps
-    }
-    
+
     /*
     // MARK: - Navigation
 

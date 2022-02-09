@@ -28,9 +28,6 @@ class AlgorithmViewController: HomeItemController {
 
         self.view .addSubview(collection)
         collection.reloadData()
-        
-       let a = A_002_Bubble()
-        a.bubble(list: [1,5,3,7,9,4])
     }
 
     private func sectionName(section: Int) -> String {

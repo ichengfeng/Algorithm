@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040641F127B3A37300094E90 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641F027B3A37300094E90 /* MineViewController.swift */; };
+		040641F427B3A50300094E90 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641F327B3A50300094E90 /* NavigationController.swift */; };
+		040641F627B3A54100094E90 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641F527B3A54100094E90 /* MainViewController.swift */; };
+		040641F827B3B71D00094E90 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641F727B3B71D00094E90 /* BaseViewController.swift */; };
+		040641FB27B3B7D900094E90 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641FA27B3B7D900094E90 /* NavBarView.swift */; };
 		0424796B27434BA1001BCD58 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424796A27434BA1001BCD58 /* Stack.swift */; };
 		0424796E27434C52001BCD58 /* A_001_Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424796D27434C52001BCD58 /* A_001_Stack.swift */; };
 		04247971274351F1001BCD58 /* L_001_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247970274351F1001BCD58 /* L_001_两数之和.swift */; };
@@ -14,7 +19,6 @@
 		0464936C26E738DC004FF1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464936B26E738DC004FF1C3 /* AppDelegate.swift */; };
 		0464936E26E738DC004FF1C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464936D26E738DC004FF1C3 /* SceneDelegate.swift */; };
 		0464937026E738DC004FF1C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464936F26E738DC004FF1C3 /* HomeViewController.swift */; };
-		0464937326E738DC004FF1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464937126E738DC004FF1C3 /* Main.storyboard */; };
 		0464937526E738DF004FF1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0464937426E738DF004FF1C3 /* Assets.xcassets */; };
 		0464937826E738DF004FF1C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0464937626E738DF004FF1C3 /* LaunchScreen.storyboard */; };
 		0464938326E73EE4004FF1C3 /* HomeItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464938226E73EE4004FF1C3 /* HomeItemController.swift */; };
@@ -28,6 +32,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040641F027B3A37300094E90 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		040641F327B3A50300094E90 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		040641F527B3A54100094E90 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		040641F727B3B71D00094E90 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		040641FA27B3B7D900094E90 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
 		0424796A27434BA1001BCD58 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0424796D27434C52001BCD58 /* A_001_Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_001_Stack.swift; sourceTree = "<group>"; };
 		04247970274351F1001BCD58 /* L_001_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L_001_两数之和.swift"; sourceTree = "<group>"; };
@@ -36,7 +45,6 @@
 		0464936B26E738DC004FF1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0464936D26E738DC004FF1C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0464936F26E738DC004FF1C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		0464937226E738DC004FF1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0464937426E738DF004FF1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0464937726E738DF004FF1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0464937926E738DF004FF1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +72,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040641EF27B3A34200094E90 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				040641F027B3A37300094E90 /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		040641F227B3A4C900094E90 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				040641F327B3A50300094E90 /* NavigationController.swift */,
+				040641F527B3A54100094E90 /* MainViewController.swift */,
+				040641F727B3B71D00094E90 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		040641F927B3B7AD00094E90 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				040641FA27B3B7D900094E90 /* NavBarView.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		0424796727434A84001BCD58 /* Leecode */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +165,10 @@
 			children = (
 				0464936B26E738DC004FF1C3 /* AppDelegate.swift */,
 				0464936D26E738DC004FF1C3 /* SceneDelegate.swift */,
+				040641F227B3A4C900094E90 /* Base */,
+				040641EF27B3A34200094E90 /* Mine */,
 				0464938026E73EA6004FF1C3 /* Home */,
+				040641F927B3B7AD00094E90 /* Public */,
 				0464938726E7455B004FF1C3 /* Tools */,
 				0464937F26E73E70004FF1C3 /* SupportFile */,
 			);
@@ -141,7 +178,6 @@
 		0464937F26E73E70004FF1C3 /* SupportFile */ = {
 			isa = PBXGroup;
 			children = (
-				0464937126E738DC004FF1C3 /* Main.storyboard */,
 				0464937426E738DF004FF1C3 /* Assets.xcassets */,
 				0464937626E738DF004FF1C3 /* LaunchScreen.storyboard */,
 				0464937926E738DF004FF1C3 /* Info.plist */,
@@ -281,7 +317,6 @@
 			files = (
 				0464937826E738DF004FF1C3 /* LaunchScreen.storyboard in Resources */,
 				0464937526E738DF004FF1C3 /* Assets.xcassets in Resources */,
-				0464937326E738DC004FF1C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +373,12 @@
 				0424796E27434C52001BCD58 /* A_001_Stack.swift in Sources */,
 				0464938626E74547004FF1C3 /* Screen.swift in Sources */,
 				0464937026E738DC004FF1C3 /* HomeViewController.swift in Sources */,
+				040641F427B3A50300094E90 /* NavigationController.swift in Sources */,
+				040641FB27B3B7D900094E90 /* NavBarView.swift in Sources */,
+				040641F827B3B71D00094E90 /* BaseViewController.swift in Sources */,
 				0464939226E77486004FF1C3 /* WaterfallFlowLayout.swift in Sources */,
 				0464939326E77486004FF1C3 /* WaterfallMutiSectionFlowLayout.swift in Sources */,
+				040641F627B3A54100094E90 /* MainViewController.swift in Sources */,
 				0464936C26E738DC004FF1C3 /* AppDelegate.swift in Sources */,
 				0424796B27434BA1001BCD58 /* Stack.swift in Sources */,
 				0464938326E73EE4004FF1C3 /* HomeItemController.swift in Sources */,
@@ -348,20 +387,13 @@
 				0464938A26E7518B004FF1C3 /* HomeHeaderView.swift in Sources */,
 				0464938E26E760CB004FF1C3 /* AlgorithmViewController.swift in Sources */,
 				0464938C26E760AF004FF1C3 /* LeecodeViewController.swift in Sources */,
+				040641F127B3A37300094E90 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0464937126E738DC004FF1C3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0464937226E738DC004FF1C3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0464937626E738DF004FF1C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

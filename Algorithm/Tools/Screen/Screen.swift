@@ -14,13 +14,13 @@ let kScreenWidth : CGFloat = UIScreen.main.bounds.size.width
 let kScreenHeight : CGFloat = UIScreen.main.bounds.size.height
 
 /// 屏幕适配比例（宽）
-let ratio = kScreenWidth/375.0
+let ratio : CGFloat = kScreenWidth/375.0
 
 /// 屏幕适配比例（高）
-let ratio_h = kScreenHeight/667.0
+let ratio_h : CGFloat = kScreenHeight/667.0
 
 /// 字体适配比列
-let ratio_font = kScreenWidth > 414.0 ? 1.0 : ratio
+let ratio_font : CGFloat = kScreenWidth > 414.0 ? 1.0 : ratio
 
 class Screen: NSObject {
     
@@ -37,7 +37,7 @@ class Screen: NSObject {
     /// 获取状态栏的高度
     /// - Returns: 状态栏的高度
     class func statusBarHeight() -> CGFloat {
-        if #available(iOS 14.0, *) {
+        if #available(iOS 13.0, *) {
             let scene = UIApplication.shared.connectedScenes.first
             if ((scene?.isKind(of: UIWindowScene.self)) != nil) {
                 let a = scene as! UIWindowScene
@@ -75,3 +75,55 @@ class Screen: NSObject {
 }
 
 
+extension CGFloat {
+    var ar: CGFloat {
+        self*ratio
+    }
+}
+
+extension Double {
+    var ar: CGFloat {
+        self*ratio
+    }
+}
+
+extension Int {
+    var ar: CGFloat {
+        CGFloat(self)*ratio
+    }
+}
+
+
+extension UIViewController {
+    var topMost: UIViewController {
+        let rootVC = (UIApplication.shared.windows.first?.rootViewController)!
+        return self.topMostOf(viewController: rootVC)
+    }
+    
+    func topMostOf(viewController: UIViewController) -> UIViewController {
+        
+        if viewController.isKind(of: UITabBarController.self) == true {
+            let tabVC : UITabBarController = viewController  as! UITabBarController
+            return self.topMostOf(viewController: tabVC.selectedViewController!)
+        }
+        
+        if viewController.presentedViewController != nil && (viewController.presentedViewController?.isKind(of: UIAlertController.self) == true) {
+            return self.topMostOf(viewController: viewController.presentedViewController!)
+        }
+        
+        if viewController.isKind(of: UINavigationController.self) == true {
+            let nav : UINavigationController = viewController as! UINavigationController
+            let a : [UIViewController] = nav.viewControllers
+            return a.last! as UIViewController
+        }
+        
+        for subView in viewController.view.subviews {
+            let responder = subView.next
+            if responder != nil && (responder?.isKind(of: UIViewController.self) == true) {
+                return self.topMostOf(viewController: responder as! UIViewController)
+            }
+        }
+        
+        return viewController
+    }
+}
