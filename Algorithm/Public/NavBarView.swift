@@ -66,7 +66,8 @@ class NavBarView: UIView {
         
         backgroundImg.addSubview(titleLabel)
         titleLabel.snp.makeConstraints { make in
-            make.center.equalTo(backgroundImg)
+            make.centerX.equalTo(backgroundImg)
+            make.top.equalTo(Screen.statusBarHeight()+6.ar)
             make.height.equalTo(21.ar)
         }
         

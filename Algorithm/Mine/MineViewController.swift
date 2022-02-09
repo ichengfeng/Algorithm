@@ -13,6 +13,7 @@ class MineViewController: UIViewController {
         super.viewDidLoad()
 
         let navBar = NavBarView()
+        navBar.title = "我的"
         navBar.backBtn.isHidden = true
         self.view .addSubview(navBar)
         navBar.snp.makeConstraints { make in
