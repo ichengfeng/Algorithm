@@ -13,7 +13,7 @@ class MineViewController: UIViewController {
         super.viewDidLoad()
 
         let navBar = NavBarView()
-        navBar.backBtn.isHidden = false
+        navBar.backBtn.isHidden = true
         self.view .addSubview(navBar)
         navBar.snp.makeConstraints { make in
             make.top.left.right.equalTo(self.view)
