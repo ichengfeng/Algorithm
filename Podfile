@@ -12,7 +12,7 @@ target 'Algorithm' do
    pod 'JXPagingView/Paging'
 #   pod 'AFNetworking'
 #   pod 'Alamofire'
-#   pod 'SDWebImage','~> 5.11.0'
+   pod 'SDWebImage','~> 5.11.0'
 #   pod 'SDWebImageWebPCoder','~> 0.8.3'
    pod 'MJRefresh','~> 3.5.0'
 #   pod 'SwiftyJSON'

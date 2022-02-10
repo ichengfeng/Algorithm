@@ -9,10 +9,20 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
+    let navBar : NavBarView = {
+        let nav = NavBarView()
+        return nav
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
 
-        // Do any additional setup after loading the view.
+        self.view.addSubview(navBar)
+        navBar.snp.makeConstraints { make in
+            make.top.left.right.equalTo(self.view)
+            make.height.equalTo(Screen.navBarHeight())
+        }
     }
     
 

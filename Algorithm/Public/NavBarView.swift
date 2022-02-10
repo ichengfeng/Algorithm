@@ -13,6 +13,7 @@ class NavBarView: UIView {
     
     let backgroundImg : UIImageView = {
         let img = UIImageView()
+        img.isUserInteractionEnabled = true
         img.image = UIImage(named: "nav")
         return img
     }()

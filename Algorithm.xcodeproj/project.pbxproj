@@ -12,6 +12,7 @@
 		040641F627B3A54100094E90 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641F527B3A54100094E90 /* MainViewController.swift */; };
 		040641F827B3B71D00094E90 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641F727B3B71D00094E90 /* BaseViewController.swift */; };
 		040641FB27B3B7D900094E90 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641FA27B3B7D900094E90 /* NavBarView.swift */; };
+		040641FE27B4E7D300094E90 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040641FD27B4E7D300094E90 /* ScrollViewController.swift */; };
 		0424796B27434BA1001BCD58 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424796A27434BA1001BCD58 /* Stack.swift */; };
 		0424796E27434C52001BCD58 /* A_001_Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424796D27434C52001BCD58 /* A_001_Stack.swift */; };
 		04247971274351F1001BCD58 /* L_001_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247970274351F1001BCD58 /* L_001_两数之和.swift */; };
@@ -37,6 +38,7 @@
 		040641F527B3A54100094E90 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		040641F727B3B71D00094E90 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		040641FA27B3B7D900094E90 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		040641FD27B4E7D300094E90 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		0424796A27434BA1001BCD58 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		0424796D27434C52001BCD58 /* A_001_Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_001_Stack.swift; sourceTree = "<group>"; };
 		04247970274351F1001BCD58 /* L_001_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "L_001_两数之和.swift"; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		040641EF27B3A34200094E90 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				040641FC27B4E40000094E90 /* VC */,
 				040641F027B3A37300094E90 /* MineViewController.swift */,
 			);
 			path = Mine;
@@ -96,6 +99,14 @@
 				040641FA27B3B7D900094E90 /* NavBarView.swift */,
 			);
 			path = Public;
+			sourceTree = "<group>";
+		};
+		040641FC27B4E40000094E90 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				040641FD27B4E7D300094E90 /* ScrollViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		0424796727434A84001BCD58 /* Leecode */ = {
@@ -376,6 +387,7 @@
 				040641F427B3A50300094E90 /* NavigationController.swift in Sources */,
 				040641FB27B3B7D900094E90 /* NavBarView.swift in Sources */,
 				040641F827B3B71D00094E90 /* BaseViewController.swift in Sources */,
+				040641FE27B4E7D300094E90 /* ScrollViewController.swift in Sources */,
 				0464939226E77486004FF1C3 /* WaterfallFlowLayout.swift in Sources */,
 				0464939326E77486004FF1C3 /* WaterfallMutiSectionFlowLayout.swift in Sources */,
 				040641F627B3A54100094E90 /* MainViewController.swift in Sources */,
