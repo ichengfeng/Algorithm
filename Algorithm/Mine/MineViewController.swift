@@ -16,8 +16,12 @@ class MineViewController: BaseViewController {
         table.estimatedRowHeight = 64.ar
         table.rowHeight = UITableView.automaticDimension
         table.tableFooterView = UIView.init(frame: CGRect.zero)
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "MineCell")
+        table.register(MineCell.self, forCellReuseIdentifier: "MineCell")
         table.contentInsetAdjustmentBehavior = .never
+        
+        let img = UIImageView(image: UIImage(named: "IMG_MIMI_1"))
+        img.contentMode = .scaleAspectFill
+        table.backgroundView = img
         return table
     }()
 
@@ -26,14 +30,14 @@ class MineViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navBar.title = "我的"
-        navBar.backBtn.isHidden = true
+        self.navigationItem.title = "我的"
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
         
         tableView.dataSource = self
         tableView.delegate = self
         self.view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
-            make.top.equalTo(self.navBar.snp.bottom)
+            make.top.equalTo(self.view)
             make.left.right.equalTo(self.view)
             make.bottom.equalTo(self.view).offset(-Screen.safeAreaBottom()-49)
         }
@@ -81,6 +85,20 @@ class MineViewController: BaseViewController {
     
 }
 
+extension MineViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let offsetY = scrollView.contentOffset.y
+        let alpha = offsetY/Screen.navBarHeight()
+        self.navigationController?.navigationBar.alpha = alpha
+        if offsetY <= navBar.height {
+            self.navigationController?.setNavigationBarHidden(true, animated: true)
+        }else {
+            self.navigationController?.setNavigationBarHidden(false, animated: true)
+        }
+        
+    }
+}
+
 extension MineViewController: UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -92,9 +110,11 @@ extension MineViewController: UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MineCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MineCell", for: indexPath) as! MineCell
         cell.selectionStyle = .none
-        cell.textLabel?.text = "\(indexPath.row + 1)"
+        cell.title = indexPath.row % 2 == 1
+        ? "离离原上草，一岁一枯荣。\n野火烧不尽，春风吹又生。\n远芳侵古道，晴翠接荒城。\n又送王孙去，萋萋满别情。"
+        : "落霞与孤鹜齐飞，秋水共长天一色"
         return cell
     }
     
@@ -104,5 +124,38 @@ extension MineViewController: UITableViewDelegate,UITableViewDataSource {
             scrollVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(scrollVC, animated: true)
         }
+    }
+}
+
+class MineCell: UITableViewCell {
+    
+    var title : String? {
+        didSet{
+            titleLabel.text = title
+        }
+    }
+    
+    var titleLabel : UILabel = {
+        let label = UILabel()
+        label.textColor = UIColor.orange
+        label.textAlignment = .left
+        label.font = UIFont.systemFont(ofSize: 18.ar, weight: .medium)
+        label.numberOfLines = 0
+        return label
+    }()
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        self.backgroundColor = UIColor.clear
+        self.contentView.backgroundColor = UIColor.white.withAlphaComponent(0.6)
+        self.contentView.addSubview(titleLabel)
+        titleLabel.snp.makeConstraints { make in
+            make.edges.equalTo(UIEdgeInsets.init(top: 12.ar, left: 12.ar, bottom: 12.ar, right: 12.ar))
+        }
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }

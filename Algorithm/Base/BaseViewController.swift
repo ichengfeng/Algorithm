@@ -18,11 +18,11 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = true
 
-        self.view.addSubview(navBar)
-        navBar.snp.makeConstraints { make in
-            make.top.left.right.equalTo(self.view)
-            make.height.equalTo(Screen.navBarHeight())
-        }
+//        self.view.addSubview(navBar)
+//        navBar.snp.makeConstraints { make in
+//            make.top.left.right.equalTo(self.view)
+//            make.height.equalTo(Screen.navBarHeight())
+//        }
     }
     
 

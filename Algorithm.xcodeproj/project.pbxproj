@@ -29,6 +29,22 @@
 		0464938E26E760CB004FF1C3 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464938D26E760CB004FF1C3 /* AlgorithmViewController.swift */; };
 		0464939226E77486004FF1C3 /* WaterfallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464939026E77486004FF1C3 /* WaterfallFlowLayout.swift */; };
 		0464939326E77486004FF1C3 /* WaterfallMutiSectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0464939126E77486004FF1C3 /* WaterfallMutiSectionFlowLayout.swift */; };
+		04F4196927D9E1BD00B63D80 /* XCMainButtonAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4194727D9E1BD00B63D80 /* XCMainButtonAttribute.m */; };
+		04F4196A27D9E1BD00B63D80 /* XCMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4194827D9E1BD00B63D80 /* XCMainButton.m */; };
+		04F4196B27D9E1BD00B63D80 /* XCWeakButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4194A27D9E1BD00B63D80 /* XCWeakButton.m */; };
+		04F4196C27D9E1BD00B63D80 /* XCWeakButtonAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4194B27D9E1BD00B63D80 /* XCWeakButtonAttribute.m */; };
+		04F4196D27D9E1BD00B63D80 /* XCNormalButtonAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4194C27D9E1BD00B63D80 /* XCNormalButtonAttribute.m */; };
+		04F4196E27D9E1BD00B63D80 /* XCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4194D27D9E1BD00B63D80 /* XCButton.m */; };
+		04F4196F27D9E1BD00B63D80 /* XCButtonAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4194F27D9E1BD00B63D80 /* XCButtonAttribute.m */; };
+		04F4197027D9E1BD00B63D80 /* XCNormalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4195427D9E1BD00B63D80 /* XCNormalButton.m */; };
+		04F4197127D9E1BD00B63D80 /* XCAlertMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4195827D9E1BD00B63D80 /* XCAlertMaker.m */; };
+		04F4197227D9E1BD00B63D80 /* XCCustomAlertMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4195927D9E1BD00B63D80 /* XCCustomAlertMaker.m */; };
+		04F4197327D9E1BD00B63D80 /* XCCustomUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4195A27D9E1BD00B63D80 /* XCCustomUIHelper.m */; };
+		04F4197427D9E1BD00B63D80 /* XCCustomUISetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4195D27D9E1BD00B63D80 /* XCCustomUISetting.m */; };
+		04F4197527D9E1BD00B63D80 /* XCCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4196127D9E1BD00B63D80 /* XCCustomAlertView.m */; };
+		04F4197627D9E1BD00B63D80 /* XCCustomSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4196227D9E1BD00B63D80 /* XCCustomSheetView.m */; };
+		04F4197727D9E1BD00B63D80 /* XCBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4196627D9E1BD00B63D80 /* XCBadgeView.m */; };
+		04F4197827D9E1BD00B63D80 /* UIView+XCBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4196727D9E1BD00B63D80 /* UIView+XCBadge.m */; };
 		66B7B4B7600CCBF98FABEF0D /* Pods_Algorithm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78FC860B7940841BF8B0D51 /* Pods_Algorithm.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +73,39 @@
 		0464938D26E760CB004FF1C3 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 		0464939026E77486004FF1C3 /* WaterfallFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallFlowLayout.swift; sourceTree = "<group>"; };
 		0464939126E77486004FF1C3 /* WaterfallMutiSectionFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallMutiSectionFlowLayout.swift; sourceTree = "<group>"; };
+		04F4194627D9E1BD00B63D80 /* XCButtonAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCButtonAttribute.h; sourceTree = "<group>"; };
+		04F4194727D9E1BD00B63D80 /* XCMainButtonAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMainButtonAttribute.m; sourceTree = "<group>"; };
+		04F4194827D9E1BD00B63D80 /* XCMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCMainButton.m; sourceTree = "<group>"; };
+		04F4194927D9E1BD00B63D80 /* XCNormalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNormalButton.h; sourceTree = "<group>"; };
+		04F4194A27D9E1BD00B63D80 /* XCWeakButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCWeakButton.m; sourceTree = "<group>"; };
+		04F4194B27D9E1BD00B63D80 /* XCWeakButtonAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCWeakButtonAttribute.m; sourceTree = "<group>"; };
+		04F4194C27D9E1BD00B63D80 /* XCNormalButtonAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNormalButtonAttribute.m; sourceTree = "<group>"; };
+		04F4194D27D9E1BD00B63D80 /* XCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCButton.m; sourceTree = "<group>"; };
+		04F4194E27D9E1BD00B63D80 /* XCMainButtonAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMainButtonAttribute.h; sourceTree = "<group>"; };
+		04F4194F27D9E1BD00B63D80 /* XCButtonAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCButtonAttribute.m; sourceTree = "<group>"; };
+		04F4195027D9E1BD00B63D80 /* XCMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCMainButton.h; sourceTree = "<group>"; };
+		04F4195127D9E1BD00B63D80 /* XCNormalButtonAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNormalButtonAttribute.h; sourceTree = "<group>"; };
+		04F4195227D9E1BD00B63D80 /* XCWeakButtonAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCWeakButtonAttribute.h; sourceTree = "<group>"; };
+		04F4195327D9E1BD00B63D80 /* XCWeakButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCWeakButton.h; sourceTree = "<group>"; };
+		04F4195427D9E1BD00B63D80 /* XCNormalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNormalButton.m; sourceTree = "<group>"; };
+		04F4195527D9E1BD00B63D80 /* XCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCButton.h; sourceTree = "<group>"; };
+		04F4195727D9E1BD00B63D80 /* XCCustomUISetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCustomUISetting.h; sourceTree = "<group>"; };
+		04F4195827D9E1BD00B63D80 /* XCAlertMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCAlertMaker.m; sourceTree = "<group>"; };
+		04F4195927D9E1BD00B63D80 /* XCCustomAlertMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCustomAlertMaker.m; sourceTree = "<group>"; };
+		04F4195A27D9E1BD00B63D80 /* XCCustomUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCustomUIHelper.m; sourceTree = "<group>"; };
+		04F4195B27D9E1BD00B63D80 /* XCCustomSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCustomSheetView.h; sourceTree = "<group>"; };
+		04F4195C27D9E1BD00B63D80 /* XCCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCustomAlertView.h; sourceTree = "<group>"; };
+		04F4195D27D9E1BD00B63D80 /* XCCustomUISetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCustomUISetting.m; sourceTree = "<group>"; };
+		04F4195E27D9E1BD00B63D80 /* XCCustomUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCustomUIHelper.h; sourceTree = "<group>"; };
+		04F4195F27D9E1BD00B63D80 /* XCCustomAlertMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCustomAlertMaker.h; sourceTree = "<group>"; };
+		04F4196027D9E1BD00B63D80 /* XCAlertMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAlertMaker.h; sourceTree = "<group>"; };
+		04F4196127D9E1BD00B63D80 /* XCCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCustomAlertView.m; sourceTree = "<group>"; };
+		04F4196227D9E1BD00B63D80 /* XCCustomSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCustomSheetView.m; sourceTree = "<group>"; };
+		04F4196327D9E1BD00B63D80 /* XCAlertContentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCAlertContentProtocol.h; sourceTree = "<group>"; };
+		04F4196527D9E1BD00B63D80 /* UIView+XCBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCBadge.h"; sourceTree = "<group>"; };
+		04F4196627D9E1BD00B63D80 /* XCBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCBadgeView.m; sourceTree = "<group>"; };
+		04F4196727D9E1BD00B63D80 /* UIView+XCBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCBadge.m"; sourceTree = "<group>"; };
+		04F4196827D9E1BD00B63D80 /* XCBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCBadgeView.h; sourceTree = "<group>"; };
 		3F7B5F6BF792A4772236510C /* Pods-Algorithm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorithm.debug.xcconfig"; path = "Target Support Files/Pods-Algorithm/Pods-Algorithm.debug.xcconfig"; sourceTree = "<group>"; };
 		B856C77DF9EFB6CD0D666450 /* Pods-Algorithm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Algorithm.release.xcconfig"; path = "Target Support Files/Pods-Algorithm/Pods-Algorithm.release.xcconfig"; sourceTree = "<group>"; };
 		C78FC860B7940841BF8B0D51 /* Pods_Algorithm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Algorithm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +276,9 @@
 		0464938726E7455B004FF1C3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				04F4195627D9E1BD00B63D80 /* AlertMaker */,
+				04F4196427D9E1BD00B63D80 /* Badge */,
+				04F4194527D9E1BD00B63D80 /* Button */,
 				0464938F26E77486004FF1C3 /* Waterfall */,
 				0464938426E74546004FF1C3 /* Screen */,
 			);
@@ -248,6 +300,60 @@
 				0464939126E77486004FF1C3 /* WaterfallMutiSectionFlowLayout.swift */,
 			);
 			path = Waterfall;
+			sourceTree = "<group>";
+		};
+		04F4194527D9E1BD00B63D80 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				04F4194627D9E1BD00B63D80 /* XCButtonAttribute.h */,
+				04F4194727D9E1BD00B63D80 /* XCMainButtonAttribute.m */,
+				04F4194827D9E1BD00B63D80 /* XCMainButton.m */,
+				04F4194927D9E1BD00B63D80 /* XCNormalButton.h */,
+				04F4194A27D9E1BD00B63D80 /* XCWeakButton.m */,
+				04F4194B27D9E1BD00B63D80 /* XCWeakButtonAttribute.m */,
+				04F4194C27D9E1BD00B63D80 /* XCNormalButtonAttribute.m */,
+				04F4194D27D9E1BD00B63D80 /* XCButton.m */,
+				04F4194E27D9E1BD00B63D80 /* XCMainButtonAttribute.h */,
+				04F4194F27D9E1BD00B63D80 /* XCButtonAttribute.m */,
+				04F4195027D9E1BD00B63D80 /* XCMainButton.h */,
+				04F4195127D9E1BD00B63D80 /* XCNormalButtonAttribute.h */,
+				04F4195227D9E1BD00B63D80 /* XCWeakButtonAttribute.h */,
+				04F4195327D9E1BD00B63D80 /* XCWeakButton.h */,
+				04F4195427D9E1BD00B63D80 /* XCNormalButton.m */,
+				04F4195527D9E1BD00B63D80 /* XCButton.h */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		04F4195627D9E1BD00B63D80 /* AlertMaker */ = {
+			isa = PBXGroup;
+			children = (
+				04F4196027D9E1BD00B63D80 /* XCAlertMaker.h */,
+				04F4195827D9E1BD00B63D80 /* XCAlertMaker.m */,
+				04F4196327D9E1BD00B63D80 /* XCAlertContentProtocol.h */,
+				04F4195F27D9E1BD00B63D80 /* XCCustomAlertMaker.h */,
+				04F4195927D9E1BD00B63D80 /* XCCustomAlertMaker.m */,
+				04F4195C27D9E1BD00B63D80 /* XCCustomAlertView.h */,
+				04F4196127D9E1BD00B63D80 /* XCCustomAlertView.m */,
+				04F4195B27D9E1BD00B63D80 /* XCCustomSheetView.h */,
+				04F4196227D9E1BD00B63D80 /* XCCustomSheetView.m */,
+				04F4195727D9E1BD00B63D80 /* XCCustomUISetting.h */,
+				04F4195D27D9E1BD00B63D80 /* XCCustomUISetting.m */,
+				04F4195E27D9E1BD00B63D80 /* XCCustomUIHelper.h */,
+				04F4195A27D9E1BD00B63D80 /* XCCustomUIHelper.m */,
+			);
+			path = AlertMaker;
+			sourceTree = "<group>";
+		};
+		04F4196427D9E1BD00B63D80 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				04F4196527D9E1BD00B63D80 /* UIView+XCBadge.h */,
+				04F4196627D9E1BD00B63D80 /* XCBadgeView.m */,
+				04F4196727D9E1BD00B63D80 /* UIView+XCBadge.m */,
+				04F4196827D9E1BD00B63D80 /* XCBadgeView.h */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 		3B1B7686CCEEC580E7401BF9 /* Frameworks */ = {
@@ -380,26 +486,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F4197427D9E1BD00B63D80 /* XCCustomUISetting.m in Sources */,
 				04247971274351F1001BCD58 /* L_001_两数之和.swift in Sources */,
 				0424796E27434C52001BCD58 /* A_001_Stack.swift in Sources */,
+				04F4197127D9E1BD00B63D80 /* XCAlertMaker.m in Sources */,
+				04F4196F27D9E1BD00B63D80 /* XCButtonAttribute.m in Sources */,
 				0464938626E74547004FF1C3 /* Screen.swift in Sources */,
 				0464937026E738DC004FF1C3 /* HomeViewController.swift in Sources */,
 				040641F427B3A50300094E90 /* NavigationController.swift in Sources */,
 				040641FB27B3B7D900094E90 /* NavBarView.swift in Sources */,
+				04F4197827D9E1BD00B63D80 /* UIView+XCBadge.m in Sources */,
 				040641F827B3B71D00094E90 /* BaseViewController.swift in Sources */,
 				040641FE27B4E7D300094E90 /* ScrollViewController.swift in Sources */,
 				0464939226E77486004FF1C3 /* WaterfallFlowLayout.swift in Sources */,
 				0464939326E77486004FF1C3 /* WaterfallMutiSectionFlowLayout.swift in Sources */,
 				040641F627B3A54100094E90 /* MainViewController.swift in Sources */,
+				04F4196D27D9E1BD00B63D80 /* XCNormalButtonAttribute.m in Sources */,
 				0464936C26E738DC004FF1C3 /* AppDelegate.swift in Sources */,
 				0424796B27434BA1001BCD58 /* Stack.swift in Sources */,
 				0464938326E73EE4004FF1C3 /* HomeItemController.swift in Sources */,
 				0464936E26E738DC004FF1C3 /* SceneDelegate.swift in Sources */,
+				04F4197527D9E1BD00B63D80 /* XCCustomAlertView.m in Sources */,
 				042479752743879B001BCD58 /* A_002_Bubble.swift in Sources */,
+				04F4197327D9E1BD00B63D80 /* XCCustomUIHelper.m in Sources */,
+				04F4196927D9E1BD00B63D80 /* XCMainButtonAttribute.m in Sources */,
+				04F4197027D9E1BD00B63D80 /* XCNormalButton.m in Sources */,
+				04F4197727D9E1BD00B63D80 /* XCBadgeView.m in Sources */,
+				04F4196E27D9E1BD00B63D80 /* XCButton.m in Sources */,
+				04F4196A27D9E1BD00B63D80 /* XCMainButton.m in Sources */,
 				0464938A26E7518B004FF1C3 /* HomeHeaderView.swift in Sources */,
 				0464938E26E760CB004FF1C3 /* AlgorithmViewController.swift in Sources */,
+				04F4197627D9E1BD00B63D80 /* XCCustomSheetView.m in Sources */,
+				04F4196B27D9E1BD00B63D80 /* XCWeakButton.m in Sources */,
+				04F4196C27D9E1BD00B63D80 /* XCWeakButtonAttribute.m in Sources */,
 				0464938C26E760AF004FF1C3 /* LeecodeViewController.swift in Sources */,
 				040641F127B3A37300094E90 /* MineViewController.swift in Sources */,
+				04F4197227D9E1BD00B63D80 /* XCCustomAlertMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
